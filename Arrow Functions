@@ -1,0 +1,4 @@
+function modifyArray(nums) {
+    // i & 1 will be 1, or true, if 'i' is odd
+    return nums.map(i => (i & 1) ? i * 3 : i * 2);
+}
